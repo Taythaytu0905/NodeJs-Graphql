@@ -84,7 +84,7 @@ app.use("/graphql", graphqlHTTP({
 
 mongoose
     .connect(
-        'mongodb+srv://Nodejs:Doxike123@test.y0anm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+        'url', {
             useNewUrlParser: true,
             useUnifiedTopology: true
         }
